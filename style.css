@@ -1,0 +1,231 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+nav{
+    background-color: #F9a825;
+}
+a.dropdown-item:hover{
+    background-color: #F9a825;
+    color: black;
+}
+ul li {
+    margin-left: 20px !important;
+}
+nav a img{
+    margin-left: 90px;
+}
+div ul{
+    margin-right: 60px;
+}
+div div h2{
+    text-align: center;
+    position: relative;
+    top: -33px;
+}
+div.jumbotron{
+    background-color: #F9a825;
+    opacity: 1;
+    color: black;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+div.h{
+    color: #F9a825;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: black;
+}
+div.nam , div.naw , div.natk, div.trend{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+div.nam div.row div img , div.naw div.row div img , div.natk div.row div img, div.trend div.row div img{
+    box-shadow: 3px 3px 5px black;
+}
+div.nam div.row div img , div.naw div.row div img , div.natk div.row div img{
+    width:260px;
+}
+div.SP{
+    color: #F9a825;
+    background-color: black;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+div.SP button{
+    background-color: black;
+    color: #F9a825;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+div.SP input{
+    text-align: center;
+}
+div.foot{
+   background-color: #F9a825;
+   color: black;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 25px;
+}
+footer div.foot div.row div.col h4{
+    color: black !important;
+    margin-bottom:1.2em;
+}
+footer div.foot div.row div a p{
+    color: black;
+    margin: 0px;
+}
+footer div.foot div.row div i.w{
+    color: white;
+    font-size: 22px;
+    margin: 5px;
+}
+div.cr{
+    color: #F9a825;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0px;
+}
+div.h1{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    color: black;
+    text-decoration: #F9a825 underline;
+    opacity: 0.6;
+    text-shadow: 3px 3px 5px black;
+}
+div.card img{
+    height: 300px;
+    width: 250px;
+    margin-top: 10px;
+    
+}
+div.card{
+    margin-right: 35px;
+    margin-left: 40px;
+    margin-bottom: 2.5em;
+    background-color: black;
+    color: #F9a825;
+    border: 1px solid #F9a825;
+    box-shadow: 4px 4px 6px black;
+}
+.btn{
+    background-color: #F9a825;
+    color: black;
+    border: 1px solid black;
+}
+button.c{
+    background-color: black;
+    color: #F9a825;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+div.m{
+    margin-bottom: 20px;
+}
+div.trend div.row div img{
+    width: 380px;
+}
+#Name , #Email , #Phone_Number{
+    width: 550px;
+}
+#Comments{
+    width: 470px;
+}
+.f{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    font-size: 50px;
+    background-color: grey;
+    width: 50px;
+    text-align: center;
+    opacity: 0.7;
+    height: 50px;
+    color:black;
+}
+@media only screen and (max-width:700px){
+    .carousel-item img{
+        height: 400px;
+    }
+}
+@media only screen and (max-width:476px){
+    a.navbar-brand img{
+        width: 200px;
+        height: 45px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:343px){
+    a.navbar-brand img{
+        width: 150px;
+        height: 38px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:550px){
+    .carousel-item img{
+        height: 300px;
+    }
+}
+@media only screen and (max-width:610px){
+    #Name , #Email , #Phone_Number{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:480px){
+    #Comments , #Name , #Email , #Phone_Number{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:330px){
+    #Comments , #Name , #Email , #Phone_Number{
+        width: 230px;
+    }
+}
+@media only screen and (max-width:420px){
+    div.trend div.row div img{
+        width: 280px;
+    }
+}
+@media only screen and (max-width:315px){
+    div.trend div.row div img{
+        width: 200px;
+    }
+    div.nam div.row div img , div.naw div.row div img , div.natk div.row div img{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:330px){
+    div.card img{
+        width: 170px !important;
+    }
+}
+@media only screen and (max-width:360px){
+    div.card img{
+        width: 220px;
+    }
+}
+@media only screen and (max-width:1040px){
+    div.card img{
+        width: 220px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    div.foot div{
+        margin-bottom: 2em;
+    }
+}
